@@ -2,8 +2,8 @@ name: AutoCompile-build
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 * * *'
-    - cron: '0 18 * * *'
+    - cron: '23 6 * * *'
+    - cron: '23 18 * * *'
     
 jobs:
   Build:
